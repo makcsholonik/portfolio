@@ -1,8 +1,9 @@
 import React from "react";
-import style from'./App.module.css';
+import style from './App.module.css';
 import { Header } from "./header/Header";
 import { Main } from "./main/Main";
 import { Skills } from "./skills/Skills";
+import { Projects } from "./projects/Projects";
 
 export const App = () => {
     return (
@@ -10,7 +11,7 @@ export const App = () => {
             <Header/>
             <Main/>
             <Skills/>
+            <Projects/>
         </div>
     );
 }
-
