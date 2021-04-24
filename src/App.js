@@ -5,6 +5,7 @@ import { Main } from "./main/Main";
 import { Skills } from "./skills/Skills";
 import { Projects } from "./projects/Projects";
 import { Distant } from "./distant/Distant";
+import { Contacts } from "./contacts/Contacts";
 
 export const App = () => {
     return (
@@ -14,6 +15,7 @@ export const App = () => {
             <Skills/>
             <Projects/>
             <Distant/>
+            <Contacts/>
         </div>
     );
 }
