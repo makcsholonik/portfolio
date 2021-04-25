@@ -1,0 +1,38 @@
+.footerBlock {
+    height: 50vh;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: grey;
+}
+
+.network {
+    border: 1px solid;
+    width: 50%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.network > div:nth-child(odd) {
+    background-color: #747871;
+}
+
+.network > div:nth-child(even) {
+    background-color: #99d0fb;
+}
+
+.copyright {
+    display: flex;
+    background-color: grey;
+}
+.copyright > img {
+    background-color: brown;
+}
