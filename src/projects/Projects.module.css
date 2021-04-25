@@ -1,15 +1,17 @@
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: cadetblue;
 }
 
 .projectsContainer {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
 .title {
     background-color: #747871;
+    margin: 20px;
 }
 
 .projects {

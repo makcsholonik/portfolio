@@ -13,16 +13,22 @@
     background-color: firebrick;
 }
 
-.button {
+.imageContainer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img1.goodfon.ru/wallpaper/nbig/b/2e/chestnaya-oboina-minimalizm.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .title {
+    background-color: lightyellow;
 }
 
 .description {
-}
-
-
-.skill {
-
+    text-align: center;
+    padding: 10px;
 }

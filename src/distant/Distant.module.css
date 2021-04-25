@@ -9,7 +9,10 @@
     height: 200px;
 }
 
-.title{}
+.title{
+    background-color: grey;
+    margin: 20px;
+}
 
 .button{
     background-color: #747871;

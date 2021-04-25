@@ -6,12 +6,12 @@ export const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <h2 className={style.contacts}>Контакты</h2>
-                <div className={style.input}>
+                <h2 className={style.title}>Контакты</h2>
+                <form className={style.formContainer} action="">
                     <input type="text"/>
                     <input type="text"/>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
+                    <textarea name="" id=""></textarea>
+                </form>
                 <div className={style.send}>Отправить</div>
             </div>
         </div>

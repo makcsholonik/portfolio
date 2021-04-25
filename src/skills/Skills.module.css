@@ -1,5 +1,5 @@
 .skillsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #9ccb71;
 }
 
@@ -18,4 +18,5 @@
 
 .title {
     background-color: #747871;
+    margin: 20px;
 }

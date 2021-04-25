@@ -1,10 +1,11 @@
 .contactsBlock {
     background-color: #e3c3c3;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.contacts {
+.title {
     background-color: darkgray;
+    margin: 20px;
 }
 
 .contactsContainer {
@@ -13,9 +14,9 @@
     justify-content: space-between;
 }
 
-.input {
+.formContainer {
     border: 1px solid;
-    width: 50vh;
+    width: 280px;
     display: inline-flex;
     flex-direction: column;
     margin: 50px 0;
