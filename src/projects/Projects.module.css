@@ -1,6 +1,6 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: cadetblue;
+    background-color: #fff;
 }
 
 .projectsContainer {
@@ -12,6 +12,15 @@
 .title {
     background-color: #747871;
     margin: 20px;
+}
+
+.title h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 44px;
+    padding: 5px 10px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .projects {
