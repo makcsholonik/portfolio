@@ -1,8 +1,8 @@
 .project {
     width: 450px;
-    background-color: grey;
     display: flex;
     flex-direction: column;
+    background: #252527;
 }
 
 .imageContainer {
@@ -17,6 +17,10 @@
     padding: 10px 20px;
 }
 
+.projectInfo {
+    padding: 25px 20px;
+}
+
 .projectTitle {
     font-size: 16px;
     letter-spacing: 1px;
@@ -26,7 +30,7 @@
 
 .description {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.8;
     font-family: Poppins, sans-serif;
 }
