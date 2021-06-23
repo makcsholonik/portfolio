@@ -1,16 +1,8 @@
 .project {
-    width: 300px;
+    width: 450px;
     background-color: grey;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: left;
-}
-
-.image {
-    height: 60px;
-    width: 60px;
-    background-color: firebrick;
 }
 
 .imageContainer {
@@ -19,16 +11,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://img1.goodfon.ru/wallpaper/nbig/b/2e/chestnaya-oboina-minimalizm.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
-.title {
-    background-color: lightyellow;
+.imageButton {
+    padding: 10px 20px;
+}
+
+.projectTitle {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    line-height: 1.2;
 }
 
 .description {
-    text-align: center;
-    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: Poppins, sans-serif;
 }

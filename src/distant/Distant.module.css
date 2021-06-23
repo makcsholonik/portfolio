@@ -1,19 +1,14 @@
-.distantBlock{
+.distantBlock {
     height: 50vh;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
-.distantContainer{
+.distantContainer {
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
 }
 
-.title{
-    background-color: grey;
-    margin: 20px;
-}
-
-.button{
+.button {
     background-color: #747871;
 }

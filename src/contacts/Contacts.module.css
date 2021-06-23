@@ -1,11 +1,6 @@
 .contactsBlock {
-    background-color: #e3c3c3;
+    /*background-color: #e3c3c3;*/
     min-height: 100vh;
-}
-
-.title {
-    background-color: darkgray;
-    margin: 20px;
 }
 
 .contactsContainer {
