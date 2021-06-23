@@ -2,15 +2,14 @@ import React from "react";
 import styleContainer from './../common/styles/Container.module.css';
 import style from './../projects/Projects.module.css';
 import { Project } from "./project/Project";
+import { Title } from "../common/components/title/Title";
 
 
 export const Projects = () => {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <div className={style.title}>
-                    <h2>Projects</h2>
-                </div>
+                <Title title={"Projects"}/>
                 <div className={style.projects}>
                     <Project
                         title={"social network"}
