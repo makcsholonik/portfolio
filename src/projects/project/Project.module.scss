@@ -1,8 +1,10 @@
+@import '/src/common/styles/sass/variables';
+
 .project {
   width: 450px;
   display: flex;
   flex-direction: column;
-  background: #252527;
+  background: $bgSecondColor;
 
   .imageContainer {
     width: 100%;
@@ -27,6 +29,7 @@
     }
 
     .imageButton {
+      background-color: $primaryColor;
       padding: 10px 20px;
       position: relative;
       z-index: 1;
