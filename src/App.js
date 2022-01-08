@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import style from './App.module.css';
-import { Header } from "./header/Header";
-import { Main } from "./main/Main";
-import { Skills } from "./skills/Skills";
-import { Projects } from "./projects/Projects";
-import { Distant } from "./distant/Distant";
-import { Contacts } from "./contacts/Contacts";
-import { Footer } from "./footer/Footer";
+import { Header } from './header/Header';
+import { Main } from './main/Main';
+import { Skills } from './skills/Skills';
+import { Projects } from './projects/Projects';
+import { Hire } from './hire/Hire';
+import { Contacts } from './contacts/Contacts';
+import { Footer } from './footer/Footer';
 
 export const App = () => {
     return (
@@ -15,7 +15,7 @@ export const App = () => {
             <Main/>
             <Skills/>
             <Projects/>
-            <Distant/>
+            <Hire/>
             <Contacts/>
             <Footer/>
         </div>

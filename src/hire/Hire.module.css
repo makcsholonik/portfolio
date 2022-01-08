@@ -1,9 +1,9 @@
-.distantBlock {
+.hireBlock {
     height: 50vh;
     /*background-color: aqua;*/
 }
 
-.distantContainer {
+.hireContainer {
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
