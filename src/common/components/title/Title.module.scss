@@ -1,11 +1,9 @@
 @import '/src/common/styles/sass/variables';
 
 .title {
-  margin: 0 0 30px;
-  font-weight: 300;
+  font: $titleFontFamily;
+  margin-bottom: 30px;
   text-transform: capitalize;
-  font-size: 30px;
-  line-height: 1.2;
   letter-spacing: 5px;
   position: relative;
 
