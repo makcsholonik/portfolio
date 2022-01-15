@@ -13,20 +13,18 @@
       align-items: center;
       margin: 50px 0;
 
-      input, textarea {
+      & input, & textarea {
         width: 100%;
         margin-bottom: 5px;
+      }
+
+      @media screen and (max-width: 1000px) {
+        width: 80%;
       }
 
       .submitBtn {
         padding: 10px 20px;
         background-color: darkgray;
-      }
-
-      @media screen and (max-width: 1000px) {
-        .formContainer {
-          width: 80%;
-        }
       }
     }
   }

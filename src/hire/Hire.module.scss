@@ -1,0 +1,16 @@
+.hireBlock {
+  height: 50vh;
+
+  .hireContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+
+    .button {
+      background-color: #747871;
+    }
+  }
+}
+
+
+
