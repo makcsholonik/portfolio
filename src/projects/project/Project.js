@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Project.module.scss'
-import { configure } from '@testing-library/react';
 
 export const Project = (props) => {
     return (
