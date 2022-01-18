@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './App.module.css';
+import style from './App.module.scss';
 import { Header } from './header/Header';
 import { Main } from './main/Main';
 import { Skills } from './skills/Skills';
@@ -21,3 +21,18 @@ export const App = () => {
         </div>
     );
 }
+
+
+// function App() {
+//     return (
+//         <div className="App">
+//             <Header/>
+//             <Main/>
+//             <Skills/>
+//             <Projects/>
+//             <Hire/>
+//             <Contacts/>
+//             <Footer/>
+//         </div>
+//     );
+// }

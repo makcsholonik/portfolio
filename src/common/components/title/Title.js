@@ -8,3 +8,13 @@ export const Title = (props) => {
         </div>
     );
 }
+
+
+// function Title(props) {
+//     return (
+//         <div className={style.title}>
+//             <h2>{props.text}</h2>
+//         </div>
+//
+//     );
+// }

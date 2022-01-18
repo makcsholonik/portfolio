@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.scss'
-import maxImg from './../assets/image/maxim.png'
+import maxImg from './../assets/images/maxim.png'
 
 export const Main = () => {
     const maxim = {
@@ -20,3 +20,24 @@ export const Main = () => {
         </div>
     );
 }
+
+
+//function Main() {
+// //     return (
+// //         <div className={styles.mainBlock}>
+// //             <div className={styles.container}>
+// //                 <div className={styles.greeting}>
+// //                     <span>Hi There</span>
+// //                     <span>I am Svetlana <span>Dyablo</span></span>
+// //                     <h1>Frontend Developer.</h1>
+// //                 </div>
+// //                 <div className={styles.photo}>
+// //                     <div className={styles.image}>
+// //
+// //                     </div>
+// //                 </div>
+// //
+// //             </div>
+// //         </div>
+// //     );
+// // }

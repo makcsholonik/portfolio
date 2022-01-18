@@ -3,8 +3,6 @@ import style from './Hire.module.scss';
 import styleContainer from '../common/styles/Container.module.scss';
 import { Title } from "../common/components/title/Title";
 
-
-
 export const Hire = () => {
     return (
         <div className={style.hireBlock}>
@@ -15,3 +13,15 @@ export const Hire = () => {
         </div>
     );
 }
+
+
+// function Hire() {
+//     return (
+//         <div className={style.hireBlock}>
+//             <div className= {style.container} >
+//                 <Title text={"I am available for Freelance"}/>
+//                 <Button text={"Hire me"}/>
+//             </div>
+//         </div>
+//     );
+// }

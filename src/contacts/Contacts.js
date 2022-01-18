@@ -18,3 +18,19 @@ export const Contacts = () => {
         </div>
     )
 }
+
+// function Contacts() {
+//     return (
+//         <div className={styles.contactsBlock}>
+//             <div className={styles.container}>
+//                 <Title text={"Contacts"}/>
+//                 <form className={styles.form}>
+//                     <input type="text" className={styles.formArea} placeholder="Name"/>
+//                     <input type="text" className={styles.formArea} placeholder="e-mail"/>
+//                     <textarea className={styles.messageArea} placeholder="Message"/>
+//                     <button type="submit" >Send message</button>
+//                 </form>
+//             </div>
+//         </div>
+//     );
+// }

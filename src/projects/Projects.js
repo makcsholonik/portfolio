@@ -3,8 +3,8 @@ import styleContainer from '../common/styles/Container.module.scss'
 import style from './Projects.module.scss'
 import { Project } from './project/Project'
 import { Title } from '../common/components/title/Title'
-import socialImg from './../assets/image/socialNetwork.png'
-import todoImg from './../assets/image/todolist.png'
+import socialImg from './../assets/images/socialNetwork.png'
+import todoImg from './../assets/images/todolist.png'
 
 
 export const Projects = () => {
@@ -32,3 +32,25 @@ export const Projects = () => {
         </div>
     );
 }
+
+
+//function Projects() {
+//     const social = {
+//         backgroundImage: `url(${socialImage})`,
+//     };
+//     const todolist = {
+//         backgroundImage: `url(${todoImage})`,
+//     };
+//
+//     return (
+//         <div className={style.projectsBlock}>
+//             <div className={style.container} >
+//                 <Title text={"Projects"}/>
+//                 <div className={style.projects}>
+//                     <Project style={social} title={"Social network"} description={"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
+//                     <Project style={todolist} title={"Todo list"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, "}/>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// }

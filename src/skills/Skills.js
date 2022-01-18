@@ -20,3 +20,29 @@ export const Skills = () => {
         </div>
     );
 }
+
+
+// function Skills() {
+//     let react = reactIcon;
+//     let js = jsIcon;
+//     let html = htmlIcon;
+//
+//     return (
+//         <div className={styles.skillsBlock}>
+//             <div className={styles.container}>
+//                 <Title text={"Skills"}/>
+//                 <div className={styles.skills}>
+//                     <Skill title={"Js"}
+//                            icon={js}
+//                            description={"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
+//                     <Skill title={"html & Css"}
+//                            icon={html}
+//                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, "}/>
+//                     <Skill title={"React"}
+//                            icon={react}
+//                            description={"ut labore et dolore magna aliqua Ut."}/>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// }

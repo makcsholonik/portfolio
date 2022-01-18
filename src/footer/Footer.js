@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import style from './Footer.module.scss';
 import styleContainer from '../common/styles/Container.module.scss';
 
@@ -20,3 +20,37 @@ export const Footer = () => {
         </div>
     )
 }
+
+
+// function Footer() {
+//     return (
+//         <div className={styles.footer}>
+//             <div className={styles.container} >
+//                 <Title text={"Svetlana Dyablo"}/>
+//                 <div className={styles.socialIcons}>
+//                     <div className={styles.socialIcon}>
+//                         <a href="">
+//                             <img src={telegramIcon} alt=""/>
+//                         </a>
+//                     </div>
+//                     <div className={styles.socialIcon}>
+//                         <a href="">
+//                             <img src={facebookIcon} alt=""/>
+//                         </a>
+//                     </div>
+//                     <div className={styles.socialIcon}>
+//                         <a href="">
+//                             <img src={likedinIcon} alt=""/>
+//                         </a>
+//                     </div>
+//                     <div className={styles.socialIcon}>
+//                         <a href="">
+//                             <img src={vkIcon} alt=""/>
+//                         </a>
+//                     </div>
+//                 </div>
+//                 <span className={styles.copyright}>2020 All Rights Reserved.</span>
+//             </div>
+//         </div>
+//     );
+// }
