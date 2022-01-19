@@ -1,27 +1,15 @@
-import React from "react";
+import React from 'react';
 import style from './Hire.module.scss';
-import styleContainer from '../common/styles/Container.module.scss';
-import { Title } from "../common/components/title/Title";
+import { Title } from '../common/components/title/Title';
+import Button from '../common/components/button/Button';
 
 export const Hire = () => {
     return (
         <div className={style.hireBlock}>
-            <div className={`${styleContainer.container} ${style.hireContainer}`}>
-                <Title title={"I am available for Freelancer"}/>
-                <div className={style.button}>Нанять меня</div>
+            <div className={style.container}>
+                <Title title={'I am available for Freelancer'}/>
+                <Button text={'Hire me'}/>
             </div>
         </div>
     );
 }
-
-
-// function Hire() {
-//     return (
-//         <div className={style.hireBlock}>
-//             <div className= {style.container} >
-//                 <Title text={"I am available for Freelance"}/>
-//                 <Button text={"Hire me"}/>
-//             </div>
-//         </div>
-//     );
-// }

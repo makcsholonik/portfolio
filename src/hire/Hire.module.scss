@@ -1,26 +1,11 @@
-@import '/src/common/styles/sass/variables';
+@import '/src/common/styles/sass/mixins';
 
 .hireBlock {
-  height: 50vh;
+	padding: 70px 0;
 
-  .hireContainer {
-    flex-direction: column;
-    justify-content: space-between;
-    height: 200px;
-
-    .button {
-      background-color: #747871;
-    }
-  }
+	.container {
+		@include container();
+		@include flex(column, space-between, center, nowrap);
+		height: 150px;
+	}
 }
-
-
-
-//.hireBlock {
-//  padding: 70px 0;
-//  .container {
-//    @include container();
-//    @include flex(column, space-between, center, nowrap);
-//    height: 150px;
-//  }
-//}
