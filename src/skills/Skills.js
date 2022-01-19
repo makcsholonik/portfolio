@@ -18,17 +18,17 @@ export const Skills = () => {
                 <Title title={'Skills'}/>
                 <div className={style.skills}>
                     <Skill
-                        title={'HTML & CSS'}
+                        title={'html & css'}
                         icon={html}
                         description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
                     />
                     <Skill
-                        title={'JS'}
+                        title={'js'}
                         icon={js}
                         description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
                     />
                     <Skill
-                        title={'React'}
+                        title={'react'}
                         icon={react}
                         description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
                     />

@@ -1,34 +1,19 @@
+@import '/src/common/styles/sass/variables';
+@import '/src/common/styles/sass/mixins';
+
 .projectsBlock {
+	padding: 100px 0;
 
-  .projectsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+	.container {
+		@include container();
+		@include flex(column, flex-start, stretch, nowrap);
 
-    .projects {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      @media screen and (max-width: 1127px) {
-        justify-content: center;
-      }
-    }
-  }
+		.projects {
+			@include flex(row, space-between, flex-start, wrap);
+			@media screen and (max-width: 1127px) {
+				justify-content: center;
+			}
+		}
+	}
 }
-
-
-//.projectsBlock {
-//  padding: 100px 0;
-//  .container {
-//    @include container();
-//    @include flex(column, flex-start, stretch, nowrap);
-//    .projects {
-//      @include flex(row, space-between, flex-start, wrap);
-//      @media screen and (max-width: 1127px) {
-//        justify-content: center;
-//      }
-//    }
-//  }
-//}
 
