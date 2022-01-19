@@ -7,7 +7,7 @@ export const Hire = () => {
     return (
         <div className={style.hireBlock}>
             <div className={style.container}>
-                <Title title={'I am available for Freelancer'}/>
+                <Title title={'I am available for Freelance'}/>
                 <Button text={'Hire me'}/>
             </div>
         </div>
