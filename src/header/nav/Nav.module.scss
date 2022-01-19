@@ -1,21 +1,13 @@
 @import '../../common/styles/sass/variables';
+@import '/src/common/styles/sass/mixins';
 
 .nav {
-  border: 1px solid red;
-  width: 300px;
-  display: flex;
-  justify-content: space-between;
+	width: 340px;
+	@include flex(row, space-between, stretch, nowrap);
+
+	a {
+		@include text($titleFontFamily, 16px, 1.2, 400);
+		color: $textColor;
+		cursor: pointer;
+	}
 }
-
-
-//.nav {
-//  width: 340px;
-//  @include flex(row, space-between, stretch, nowrap);
-//  a {
-//    @include text($TitleFontFamily, 16px, 1.2, 400);
-//    color: $textColor;
-//    cursor: pointer;
-//  }
-//
-//
-//}
