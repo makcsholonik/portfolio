@@ -12,8 +12,8 @@ export const Contacts = () => {
                     <input type="text" className={style.formArea} placeholder="Name"/>
                     <input type="text" className={style.formArea} placeholder="e-mail"/>
                     <textarea className={style.messageArea} placeholder="Message"/>
+                    <button type="submit">Send message</button>
                 </form>
-                <Button text={'Send message'} type="submit"/>
             </div>
         </div>
     )
