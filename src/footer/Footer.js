@@ -5,6 +5,7 @@ import facebookIcon from '../assets/images/facebook.svg';
 import linkedinIcon from '../assets/images/linkedin.svg';
 import vkIcon from '../assets/images/vk.svg';
 import { Title } from '../common/components/title/Title';
+import { Social } from './social/Social';
 
 export const Footer = () => {
     return (
@@ -12,29 +13,13 @@ export const Footer = () => {
             <div className={style.container}>
                 <Title title={'Maxim Sholonik'}/>
                 <div className={style.socialIcons}>
-                    <div className={style.socialIcon}>
-                        <a href="">
-                            <img src={telegramIcon} alt=""/>
-                        </a>
-                    </div>
-                    <div className={style.socialIcon}>
-                        <a href="">
-                            <img src={facebookIcon} alt=""/>
-                        </a>
-                    </div>
-                    <div className={style.socialIcon}>
-                        <a href="">
-                            <img src={linkedinIcon} alt=""/>
-                        </a>
-                    </div>
-                    <div className={style.socialIcon}>
-                        <a href="">
-                            <img src={vkIcon} alt=""/>
-                        </a>
-                    </div>
+                    <Social img={telegramIcon}/>
+                    <Social img={facebookIcon}/>
+                    <Social img={linkedinIcon}/>
+                    <Social img={vkIcon}/>
                 </div>
                 <span className={style.copyright}>2020 All Rights Reserved.</span>
             </div>
         </div>
-    )
-}
+    );
+};

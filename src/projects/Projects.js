@@ -1,17 +1,17 @@
-import React from 'react'
-import style from './Projects.module.scss'
-import { Project } from './project/Project'
-import { Title } from '../common/components/title/Title'
-import socialImg from './../assets/images/socialNetwork.png'
-import todoImg from './../assets/images/todolist.png'
+import React from 'react';
+import style from './Projects.module.scss';
+import { Project } from './project/Project';
+import { Title } from '../common/components/title/Title';
+import socialImg from './../assets/images/socialNetwork.png';
+import todoImg from './../assets/images/todolist.png';
 
 
 export const Projects = () => {
     const social = {
-        backgroundImage: `url(${socialImg})`,
+        backgroundImage: `url(${socialImg})`
     };
     const todolist = {
-        backgroundImage: `url(${todoImg})`,
+        backgroundImage: `url(${todoImg})`
     };
     return (
         <div className={style.projectsBlock}>
@@ -30,4 +30,4 @@ export const Projects = () => {
             </div>
         </div>
     );
-}
+};
