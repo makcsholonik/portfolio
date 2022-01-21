@@ -26,7 +26,7 @@
 
 	.projectInfo {
 		padding: 25px 20px;
-		background-color: $bgSecondColor;
+		background-color: $bgSecondary;
 
 		.projectTitle {
 			@include text($titleFontFamily, 16px, 1.2, 800);
