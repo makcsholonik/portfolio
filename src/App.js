@@ -21,18 +21,3 @@ export const App = () => {
         </div>
     );
 }
-
-
-// function App() {
-//     return (
-//         <div className="App">
-//             <Header/>
-//             <Main/>
-//             <Skills/>
-//             <Projects/>
-//             <Hire/>
-//             <Contacts/>
-//             <Footer/>
-//         </div>
-//     );
-// }
