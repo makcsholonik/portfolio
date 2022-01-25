@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Main.module.scss';
 import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect';
 
 export const Main = () => {
     return (
@@ -10,7 +11,9 @@ export const Main = () => {
                     <div className={style.greeting}>
                         <span>Hi There</span>
                         <h1>I am <span>Maxim Sholonik</span></h1>
-                        <p>Front-end developer</p>
+                        <ReactTypingEffect
+                            text={['Front-end developer']}
+                        />
                     </div>
                 </Fade>
                 <Fade right>
