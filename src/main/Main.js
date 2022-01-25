@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Main.module.scss';
 import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-tilt';
 
 export const Main = () => {
     return (
@@ -17,9 +18,11 @@ export const Main = () => {
                     </div>
                 </Fade>
                 <Fade right>
-                    <div className={style.photo}>
-                        <div className={style.image}></div>
-                    </div>
+                    <Tilt className="Tilt" options={{max: 15}}>
+                        <div className={style.photo}>
+                            <div className={style.image}></div>
+                        </div>
+                    </Tilt>
                 </Fade>
             </div>
         </div>
