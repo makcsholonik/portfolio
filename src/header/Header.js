@@ -9,12 +9,3 @@ export const Header = () => {
         </div>
     );
 }
-
-
-//function Header() {
-//     return (
-//         <div className={styles.header}>
-//             <Nav />
-//         </div>
-//     );
-// }
