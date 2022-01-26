@@ -6,7 +6,7 @@ import Tilt from 'react-tilt';
 
 export const Main = () => {
     return (
-        <div className={style.mainBlock}>
+        <div id={'main'} className={style.mainBlock}>
             <div className={style.container}>
                 <Fade left>
                     <div className={style.greeting}>

@@ -13,7 +13,7 @@ export const Skills = () => {
     let html = htmlIcon;
 
     return (
-        <div className={style.skillsBlock}>
+        <div id={'skills'} className={style.skillsBlock}>
             <div className={style.container}>
                 <Title title={'Skills'}/>
                 <div className={style.skills}>

@@ -14,7 +14,7 @@ export const Projects = () => {
         backgroundImage: `url(${todoImg})`
     };
     return (
-        <div className={style.projectsBlock}>
+        <div id={'projects'} className={style.projectsBlock}>
             <div className={style.container}>
                 <Title title={'Projects'}/>
                 <div className={style.projects}>
