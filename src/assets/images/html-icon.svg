@@ -1,5 +1,9 @@
-<svg width="133" height="74" viewBox="0 0 133 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.897949 41.178V33.0666L47.588 13.2827V21.9876L10.5921 37.1718L47.588 52.5538V61.2587L0.897949 41.178Z" fill="#4E93E6"/>
-<path d="M53.1274 73.327L73.7027 0.126465H80.7095L60.1342 73.327H53.1274Z" fill="#4E93E6"/>
-<path d="M132.84 41.178L86.1501 61.2587V52.5538L123.047 37.1718L86.1501 21.9876V13.2827L132.84 33.0666V41.178Z" fill="#4E93E6"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<path d="M57.6,31l36.1,405l162.1,45l162.5-45.1L454.4,31H57.6L57.6,31z M375.8,163.5H185.7l4.5,50.9h181l-13.6,152.5l-101.9,28.2
+		L154,366.8l-6.9-78h49.9l3.5,39.7l55.3,14.9l0.1,0l55.4-14.9L317,264H144.8l-13.4-150.2h248.8L375.8,163.5L375.8,163.5z"/>
+</g>
 </svg>
