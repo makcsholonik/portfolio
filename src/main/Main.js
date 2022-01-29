@@ -3,12 +3,12 @@ import style from './Main.module.scss';
 import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-tilt';
-import Particles from 'react-tsparticles';
+// import Particles from 'react-tsparticles';
 
 export const Main = () => {
     return (
         <div id={'main'} className={style.mainBlock}>
-            <Particles
+            {/*<Particles
                 className={style.particles}
                 options={{
                     fpsLimit: 60,
@@ -28,7 +28,7 @@ export const Main = () => {
                             bubble: {
                                 distance: 400,
                                 duration: 2,
-                                opacity: 0.8,
+                                opacity: 0.6,
                                 size: 40
                             },
                             push: {
@@ -82,7 +82,7 @@ export const Main = () => {
                     },
                     detectRetina: true
                 }}
-            />
+            />*/}
             <div className={style.container}>
                 <Fade left>
                     <div className={style.greeting}>
