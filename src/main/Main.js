@@ -89,7 +89,7 @@ export const Main = () => {
                         <span>Hi There</span>
                         <h1>I am <span>Maxim Sholonik</span></h1>
                         <ReactTypingEffect
-                            text={['Front-end developer']}
+                            text={['Frontend developer']}
                         />
                     </div>
                 </Fade>
