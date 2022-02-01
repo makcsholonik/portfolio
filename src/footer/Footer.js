@@ -21,7 +21,7 @@ export const Footer = () => {
                     <Social img={linkedinIcon} url={linkedinURL}/>
                     <Social img={githubIcon} url={githubURL}/>
                 </div>
-                <span className={style.copyright}>2020 All Rights Reserved.</span>
+                <span className={style.copyright}>2022 All Rights Reserved.</span>
             </div>
         </div>
     );
